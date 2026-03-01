@@ -1,0 +1,469 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - menubar [ref=e7]:
+    - menuitem "GHD Logo" [ref=e8]:
+      - link "GHD Logo" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img "GHD Logo" [ref=e11]
+    - menuitem "Search" [ref=e12]:
+      - generic [ref=e13]:
+        - img [ref=e14]
+        - generic [ref=e18]:
+          - textbox "Search" [ref=e19]
+          - img [ref=e21]
+    - menuitem "Projects Portal" [disabled]:
+      - generic:
+        - generic: Projects Portal
+    - menuitem "Projects" [ref=e24] [cursor=pointer]:
+      - generic [ref=e25]:
+        - img [ref=e26]
+        - generic [ref=e31]: Projects
+    - menuitem "Reviews and approvals" [ref=e32] [cursor=pointer]:
+      - generic [ref=e33]:
+        - img [ref=e34]
+        - generic [ref=e37]: Reviews and approvals
+    - menuitem "Notifications" [ref=e38] [cursor=pointer]:
+      - generic [ref=e39]:
+        - img [ref=e41]
+        - generic [ref=e46]:
+          - generic [ref=e47]: Notifications
+          - generic [ref=e48]: "3"
+    - menuitem "PM Store" [ref=e49] [cursor=pointer]:
+      - generic [ref=e50]:
+        - img [ref=e51]
+        - generic [ref=e54]: PM Store
+    - menuitem "Favourites" [disabled]:
+      - generic:
+        - generic:
+          - img
+        - generic: Favourites
+    - menuitem "cco_tstspseupgrade_AU" [ref=e55] [cursor=pointer]:
+      - generic [ref=e57]: cco_tstspseupgrade_AU
+    - menuitem "PCG TST Delivery 1-27" [ref=e58] [cursor=pointer]:
+      - generic [ref=e60]: PCG TST Delivery 1-27
+    - menuitem "Help" [ref=e61] [cursor=pointer]:
+      - generic [ref=e63]:
+        - img [ref=e65]
+        - generic [ref=e68]: Help
+    - menuitem "Version" [disabled]:
+      - generic:
+        - generic: 2026.2.648
+  - generic [ref=e69]:
+    - banner [ref=e70]:
+      - generic [ref=e71]:
+        - button [ref=e72] [cursor=pointer]:
+          - img [ref=e75]
+        - navigation [ref=e78]:
+          - list [ref=e79]:
+            - listitem [ref=e80]:
+              - link "GHD" [ref=e81] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e83]: GHD
+          - list [ref=e84]:
+            - listitem [ref=e85]:
+              - img [ref=e87]
+              - generic:
+                - generic: Projects
+      - button [ref=e90] [cursor=pointer]
+    - generic [ref=e91]:
+      - paragraph [ref=e92]: Welcome back, Vinaya
+      - main [ref=e93]:
+        - generic [ref=e94]:
+          - heading "Projects Portal" [level=1] [ref=e96]
+          - button "New Project" [ref=e99] [cursor=pointer]:
+            - img [ref=e100]
+            - generic [ref=e103]: New Project
+        - generic [ref=e105]:
+          - tablist [ref=e107]:
+            - tab "My projects" [ref=e108]:
+              - generic [ref=e109] [cursor=pointer]:
+                - img [ref=e110]
+                - generic [ref=e113]: My projects
+            - tab "All projects" [active] [selected] [ref=e114]:
+              - generic [ref=e115] [cursor=pointer]:
+                - img [ref=e116]
+                - generic [ref=e121]: All projects
+            - tab "Drafts" [ref=e122]:
+              - generic [ref=e123] [cursor=pointer]:
+                - img [ref=e124]
+                - generic [ref=e127]: Drafts
+          - tabpanel "All projects" [ref=e128]:
+            - generic [ref=e132]:
+              - generic [ref=e133]:
+                - generic [ref=e135]:
+                  - textbox "Search projects" [ref=e136]
+                  - img [ref=e138]
+                - button "Filter" [ref=e142] [cursor=pointer]:
+                  - img [ref=e143]
+                  - generic [ref=e146]: Filter
+                - button "Sort" [ref=e147] [cursor=pointer]:
+                  - img [ref=e148]
+                  - generic [ref=e151]: Sort
+                - button [ref=e154] [cursor=pointer]:
+                  - img [ref=e155]
+              - generic [ref=e158]:
+                - table [ref=e160]:
+                  - row "Project code Project title Client Stage Status Project Manager Project Director Actions" [ref=e170]:
+                    - columnheader "Project code" [ref=e171]:
+                      - generic [ref=e174]: Project code
+                    - columnheader "Project title" [ref=e175]:
+                      - generic [ref=e178]: Project title
+                    - columnheader "Client" [ref=e179]:
+                      - generic [ref=e182]: Client
+                    - columnheader "Stage" [ref=e183]:
+                      - generic [ref=e186]: Stage
+                    - columnheader "Status" [ref=e187]:
+                      - generic [ref=e190]: Status
+                    - columnheader "Project Manager" [ref=e191]:
+                      - generic [ref=e194]: Project Manager
+                    - columnheader "Project Director" [ref=e195]:
+                      - generic [ref=e198]: Project Director
+                    - columnheader "Actions" [ref=e199]:
+                      - generic [ref=e202]: Actions
+                  - rowgroup [ref=e203]:
+                    - row "72501922 Sprint Showcase Demo 3 The Banks Group Limited - - John Cedric Tolentino Ruel De Vera" [ref=e204]:
+                      - cell "72501922" [ref=e205]:
+                        - link "72501922" [ref=e206] [cursor=pointer]:
+                          - /url: /projects/72501922
+                      - cell "Sprint Showcase Demo 3" [ref=e207]:
+                        - link "Sprint Showcase Demo 3" [ref=e208] [cursor=pointer]:
+                          - /url: /projects/72501922
+                      - cell "The Banks Group Limited" [ref=e209]:
+                        - link "The Banks Group Limited" [ref=e210] [cursor=pointer]:
+                          - /url: /client/undefined
+                      - cell "-" [ref=e211]
+                      - cell "-" [ref=e212]
+                      - cell "John Cedric Tolentino" [ref=e213]:
+                        - button "John Cedric Tolentino" [ref=e215] [cursor=pointer]
+                      - cell "Ruel De Vera" [ref=e216]:
+                        - button "Ruel De Vera" [ref=e218] [cursor=pointer]
+                      - cell [ref=e219]:
+                        - generic [ref=e220]:
+                          - link [ref=e222] [cursor=pointer]:
+                            - /url: /tbc/72501922
+                            - img [ref=e223]
+                          - link [ref=e227] [cursor=pointer]:
+                            - /url: /tbc/72501922
+                            - img [ref=e228]
+                          - button [ref=e232] [cursor=pointer]:
+                            - img [ref=e233]
+                    - row "72501924 Town Hall Demo 1 The Banks Group Limited - - Vinaya Nagesha Indrajith Rambukkanage" [ref=e236]:
+                      - cell "72501924" [ref=e237]:
+                        - link "72501924" [ref=e238] [cursor=pointer]:
+                          - /url: /projects/72501924
+                      - cell "Town Hall Demo 1" [ref=e239]:
+                        - link "Town Hall Demo 1" [ref=e240] [cursor=pointer]:
+                          - /url: /projects/72501924
+                      - cell "The Banks Group Limited" [ref=e241]:
+                        - link "The Banks Group Limited" [ref=e242] [cursor=pointer]:
+                          - /url: /client/undefined
+                      - cell "-" [ref=e243]
+                      - cell "-" [ref=e244]
+                      - cell "Vinaya Nagesha" [ref=e245]:
+                        - button "Vinaya Nagesha" [ref=e247] [cursor=pointer]
+                      - cell "Indrajith Rambukkanage" [ref=e248]:
+                        - button "Indrajith Rambukkanage" [ref=e250] [cursor=pointer]
+                      - cell [ref=e251]:
+                        - generic [ref=e252]:
+                          - link [ref=e254] [cursor=pointer]:
+                            - /url: /tbc/72501924
+                            - img [ref=e255]
+                          - link [ref=e259] [cursor=pointer]:
+                            - /url: /tbc/72501924
+                            - img [ref=e260]
+                          - button [ref=e264] [cursor=pointer]:
+                            - img [ref=e265]
+                    - row "72501925 Town Hall Demo 2 The Banks Group Limited - - Vinaya Nagesha Indrajith Rambukkanage" [ref=e268]:
+                      - cell "72501925" [ref=e269]:
+                        - link "72501925" [ref=e270] [cursor=pointer]:
+                          - /url: /projects/72501925
+                      - cell "Town Hall Demo 2" [ref=e271]:
+                        - link "Town Hall Demo 2" [ref=e272] [cursor=pointer]:
+                          - /url: /projects/72501925
+                      - cell "The Banks Group Limited" [ref=e273]:
+                        - link "The Banks Group Limited" [ref=e274] [cursor=pointer]:
+                          - /url: /client/undefined
+                      - cell "-" [ref=e275]
+                      - cell "-" [ref=e276]
+                      - cell "Vinaya Nagesha" [ref=e277]:
+                        - button "Vinaya Nagesha" [ref=e279] [cursor=pointer]
+                      - cell "Indrajith Rambukkanage" [ref=e280]:
+                        - button "Indrajith Rambukkanage" [ref=e282] [cursor=pointer]
+                      - cell [ref=e283]:
+                        - generic [ref=e284]:
+                          - link [ref=e286] [cursor=pointer]:
+                            - /url: /tbc/72501925
+                            - img [ref=e287]
+                          - link [ref=e291] [cursor=pointer]:
+                            - /url: /tbc/72501925
+                            - img [ref=e292]
+                          - button [ref=e296] [cursor=pointer]:
+                            - img [ref=e297]
+                    - row "72501926 PSF Sample Project Name Sibanye Stillwater Australia Operations Pty Ltd - - Ruel De Vera John Cedric Tolentino" [ref=e300]:
+                      - cell "72501926" [ref=e301]:
+                        - link "72501926" [ref=e302] [cursor=pointer]:
+                          - /url: /projects/72501926
+                      - cell "PSF Sample Project Name" [ref=e303]:
+                        - link "PSF Sample Project Name" [ref=e304] [cursor=pointer]:
+                          - /url: /projects/72501926
+                      - cell "Sibanye Stillwater Australia Operations Pty Ltd" [ref=e305]:
+                        - link "Sibanye Stillwater Australia Operations Pty Ltd" [ref=e306] [cursor=pointer]:
+                          - /url: /client/undefined
+                      - cell "-" [ref=e307]
+                      - cell "-" [ref=e308]
+                      - cell "Ruel De Vera" [ref=e309]:
+                        - button "Ruel De Vera" [ref=e311] [cursor=pointer]
+                      - cell "John Cedric Tolentino" [ref=e312]:
+                        - button "John Cedric Tolentino" [ref=e314] [cursor=pointer]
+                      - cell [ref=e315]:
+                        - generic [ref=e316]:
+                          - link [ref=e318] [cursor=pointer]:
+                            - /url: /tbc/72501926
+                            - img [ref=e319]
+                          - link [ref=e323] [cursor=pointer]:
+                            - /url: /tbc/72501926
+                            - img [ref=e324]
+                          - button [ref=e328] [cursor=pointer]:
+                            - img [ref=e329]
+                    - row "72501927 Town Hall Demo 3 The Banks Group Limited - - John Cedric Tolentino Indrajith Rambukkanage" [ref=e332]:
+                      - cell "72501927" [ref=e333]:
+                        - link "72501927" [ref=e334] [cursor=pointer]:
+                          - /url: /projects/72501927
+                      - cell "Town Hall Demo 3" [ref=e335]:
+                        - link "Town Hall Demo 3" [ref=e336] [cursor=pointer]:
+                          - /url: /projects/72501927
+                      - cell "The Banks Group Limited" [ref=e337]:
+                        - link "The Banks Group Limited" [ref=e338] [cursor=pointer]:
+                          - /url: /client/undefined
+                      - cell "-" [ref=e339]
+                      - cell "-" [ref=e340]
+                      - cell "John Cedric Tolentino" [ref=e341]:
+                        - button "John Cedric Tolentino" [ref=e343] [cursor=pointer]
+                      - cell "Indrajith Rambukkanage" [ref=e344]:
+                        - button "Indrajith Rambukkanage" [ref=e346] [cursor=pointer]
+                      - cell [ref=e347]:
+                        - generic [ref=e348]:
+                          - link [ref=e350] [cursor=pointer]:
+                            - /url: /tbc/72501927
+                            - img [ref=e351]
+                          - link [ref=e355] [cursor=pointer]:
+                            - /url: /tbc/72501927
+                            - img [ref=e356]
+                          - button [ref=e360] [cursor=pointer]:
+                            - img [ref=e361]
+                    - row "72501928 Town Hall Demo 4 The Banks Group Limited - - John Cedric Tolentino Indrajith Rambukkanage" [ref=e364]:
+                      - cell "72501928" [ref=e365]:
+                        - link "72501928" [ref=e366] [cursor=pointer]:
+                          - /url: /projects/72501928
+                      - cell "Town Hall Demo 4" [ref=e367]:
+                        - link "Town Hall Demo 4" [ref=e368] [cursor=pointer]:
+                          - /url: /projects/72501928
+                      - cell "The Banks Group Limited" [ref=e369]:
+                        - link "The Banks Group Limited" [ref=e370] [cursor=pointer]:
+                          - /url: /client/undefined
+                      - cell "-" [ref=e371]
+                      - cell "-" [ref=e372]
+                      - cell "John Cedric Tolentino" [ref=e373]:
+                        - button "John Cedric Tolentino" [ref=e375] [cursor=pointer]
+                      - cell "Indrajith Rambukkanage" [ref=e376]:
+                        - button "Indrajith Rambukkanage" [ref=e378] [cursor=pointer]
+                      - cell [ref=e379]:
+                        - generic [ref=e380]:
+                          - link [ref=e382] [cursor=pointer]:
+                            - /url: /tbc/72501928
+                            - img [ref=e383]
+                          - link [ref=e387] [cursor=pointer]:
+                            - /url: /tbc/72501928
+                            - img [ref=e388]
+                          - button [ref=e392] [cursor=pointer]:
+                            - img [ref=e393]
+                    - row "72501932 Town Hall Demo The Banks Group Limited - - John Cedric Tolentino Indrajith Rambukkanage" [ref=e396]:
+                      - cell "72501932" [ref=e397]:
+                        - link "72501932" [ref=e398] [cursor=pointer]:
+                          - /url: /projects/72501932
+                      - cell "Town Hall Demo" [ref=e399]:
+                        - link "Town Hall Demo" [ref=e400] [cursor=pointer]:
+                          - /url: /projects/72501932
+                      - cell "The Banks Group Limited" [ref=e401]:
+                        - link "The Banks Group Limited" [ref=e402] [cursor=pointer]:
+                          - /url: /client/undefined
+                      - cell "-" [ref=e403]
+                      - cell "-" [ref=e404]
+                      - cell "John Cedric Tolentino" [ref=e405]:
+                        - button "John Cedric Tolentino" [ref=e407] [cursor=pointer]
+                      - cell "Indrajith Rambukkanage" [ref=e408]:
+                        - button "Indrajith Rambukkanage" [ref=e410] [cursor=pointer]
+                      - cell [ref=e411]:
+                        - generic [ref=e412]:
+                          - link [ref=e414] [cursor=pointer]:
+                            - /url: /tbc/72501932
+                            - img [ref=e415]
+                          - link [ref=e419] [cursor=pointer]:
+                            - /url: /tbc/72501932
+                            - img [ref=e420]
+                          - button [ref=e424] [cursor=pointer]:
+                            - img [ref=e425]
+                    - row "72501970 01 Oct Demo 1 The Banks Group Limited - - John Cedric Tolentino Indrajith Rambukkanage" [ref=e428]:
+                      - cell "72501970" [ref=e429]:
+                        - link "72501970" [ref=e430] [cursor=pointer]:
+                          - /url: /projects/72501970
+                      - cell "01 Oct Demo 1" [ref=e431]:
+                        - link "01 Oct Demo 1" [ref=e432] [cursor=pointer]:
+                          - /url: /projects/72501970
+                      - cell "The Banks Group Limited" [ref=e433]:
+                        - link "The Banks Group Limited" [ref=e434] [cursor=pointer]:
+                          - /url: /client/undefined
+                      - cell "-" [ref=e435]
+                      - cell "-" [ref=e436]
+                      - cell "John Cedric Tolentino" [ref=e437]:
+                        - button "John Cedric Tolentino" [ref=e439] [cursor=pointer]
+                      - cell "Indrajith Rambukkanage" [ref=e440]:
+                        - button "Indrajith Rambukkanage" [ref=e442] [cursor=pointer]
+                      - cell [ref=e443]:
+                        - generic [ref=e444]:
+                          - link [ref=e446] [cursor=pointer]:
+                            - /url: /tbc/72501970
+                            - img [ref=e447]
+                          - link [ref=e451] [cursor=pointer]:
+                            - /url: /tbc/72501970
+                            - img [ref=e452]
+                          - button [ref=e456] [cursor=pointer]:
+                            - img [ref=e457]
+                    - row "72501971 01 Oct Demo 2 The Banks Group Limited - - John Cedric Tolentino Indrajith Rambukkanage" [ref=e460]:
+                      - cell "72501971" [ref=e461]:
+                        - link "72501971" [ref=e462] [cursor=pointer]:
+                          - /url: /projects/72501971
+                      - cell "01 Oct Demo 2" [ref=e463]:
+                        - link "01 Oct Demo 2" [ref=e464] [cursor=pointer]:
+                          - /url: /projects/72501971
+                      - cell "The Banks Group Limited" [ref=e465]:
+                        - link "The Banks Group Limited" [ref=e466] [cursor=pointer]:
+                          - /url: /client/undefined
+                      - cell "-" [ref=e467]
+                      - cell "-" [ref=e468]
+                      - cell "John Cedric Tolentino" [ref=e469]:
+                        - button "John Cedric Tolentino" [ref=e471] [cursor=pointer]
+                      - cell "Indrajith Rambukkanage" [ref=e472]:
+                        - button "Indrajith Rambukkanage" [ref=e474] [cursor=pointer]
+                      - cell [ref=e475]:
+                        - generic [ref=e476]:
+                          - link [ref=e478] [cursor=pointer]:
+                            - /url: /tbc/72501971
+                            - img [ref=e479]
+                          - link [ref=e483] [cursor=pointer]:
+                            - /url: /tbc/72501971
+                            - img [ref=e484]
+                          - button [ref=e488] [cursor=pointer]:
+                            - img [ref=e489]
+                    - row "72502059 RPD - DS01 Sprint Demo 04 The Banks Group Limited - - John Cedric Tolentino Vinaya Nagesha" [ref=e492]:
+                      - cell "72502059" [ref=e493]:
+                        - link "72502059" [ref=e494] [cursor=pointer]:
+                          - /url: /projects/72502059
+                      - cell "RPD - DS01 Sprint Demo 04" [ref=e495]:
+                        - link "RPD - DS01 Sprint Demo 04" [ref=e496] [cursor=pointer]:
+                          - /url: /projects/72502059
+                      - cell "The Banks Group Limited" [ref=e497]:
+                        - link "The Banks Group Limited" [ref=e498] [cursor=pointer]:
+                          - /url: /client/undefined
+                      - cell "-" [ref=e499]
+                      - cell "-" [ref=e500]
+                      - cell "John Cedric Tolentino" [ref=e501]:
+                        - button "John Cedric Tolentino" [ref=e503] [cursor=pointer]
+                      - cell "Vinaya Nagesha" [ref=e504]:
+                        - button "Vinaya Nagesha" [ref=e506] [cursor=pointer]
+                      - cell [ref=e507]:
+                        - generic [ref=e508]:
+                          - link [ref=e510] [cursor=pointer]:
+                            - /url: /tbc/72502059
+                            - img [ref=e511]
+                          - link [ref=e515] [cursor=pointer]:
+                            - /url: /tbc/72502059
+                            - img [ref=e516]
+                          - button [ref=e520] [cursor=pointer]:
+                            - img [ref=e521]
+                - application [ref=e524]:
+                  - generic [ref=e525]:
+                    - button [disabled]:
+                      - generic:
+                        - img
+                    - button [disabled]:
+                      - generic:
+                        - img
+                    - generic [ref=e526]:
+                      - button "1" [ref=e527]:
+                        - generic [ref=e528]: "1"
+                      - button "2" [ref=e529] [cursor=pointer]:
+                        - generic [ref=e530]: "2"
+                      - button "3" [ref=e531] [cursor=pointer]:
+                        - generic [ref=e532]: "3"
+                      - button "4" [ref=e533] [cursor=pointer]:
+                        - generic [ref=e534]: "4"
+                      - button "5" [ref=e535] [cursor=pointer]:
+                        - generic [ref=e536]: "5"
+                      - button "6" [ref=e537] [cursor=pointer]:
+                        - generic [ref=e538]: "6"
+                      - button "7" [ref=e539] [cursor=pointer]:
+                        - generic [ref=e540]: "7"
+                      - button "8" [ref=e541] [cursor=pointer]:
+                        - generic [ref=e542]: "8"
+                      - button "9" [ref=e543] [cursor=pointer]:
+                        - generic [ref=e544]: "9"
+                      - button "10" [ref=e545] [cursor=pointer]:
+                        - generic [ref=e546]: "10"
+                      - button "..." [ref=e547] [cursor=pointer]:
+                        - generic [ref=e548]: ...
+                    - button [ref=e549] [cursor=pointer]:
+                      - img [ref=e551]
+                    - button [ref=e553] [cursor=pointer]:
+                      - img [ref=e555]
+                  - generic [ref=e557]:
+                    - combobox [ref=e558] [cursor=pointer]:
+                      - generic [ref=e560]: "10"
+                      - button "select" [ref=e561]:
+                        - img [ref=e563]
+                      - combobox [ref=e565]
+                    - generic [ref=e566]: items per page
+        - generic [ref=e567]:
+          - generic [ref=e569]:
+            - generic [ref=e570]:
+              - heading "Reviews and approvals" [level=3] [ref=e571]
+              - button "Go to RAM" [ref=e572] [cursor=pointer]:
+                - generic [ref=e573]: Go to RAM
+            - generic [ref=e574]:
+              - generic [ref=e575] [cursor=pointer]:
+                - generic [ref=e576]: Assigned to me
+                - img [ref=e577]
+              - generic [ref=e580] [cursor=pointer]:
+                - generic [ref=e581]: Assigned by me
+                - img [ref=e582]
+              - generic [ref=e585] [cursor=pointer]:
+                - generic [ref=e586]: Active approvals
+                - img [ref=e587]
+              - generic [ref=e590] [cursor=pointer]:
+                - generic [ref=e591]: Active TRGs
+                - img [ref=e592]
+          - generic [ref=e596]:
+            - generic [ref=e597]:
+              - heading "Data and analytics" [level=3] [ref=e598]
+              - button "Go to Power BI" [ref=e599] [cursor=pointer]:
+                - generic [ref=e600]: Go to Power BI
+                - img [ref=e601]
+            - generic [ref=e604]:
+              - generic [ref=e605] [cursor=pointer]:
+                - generic [ref=e606]: Projects framework dashboard for PD monthly review
+                - img [ref=e607]
+              - generic [ref=e610] [cursor=pointer]:
+                - generic [ref=e611]: Project financials
+                - img [ref=e612]
+              - generic [ref=e615] [cursor=pointer]:
+                - generic [ref=e616]: Project delivery and quality KPIs
+                - img [ref=e617]
+              - generic [ref=e620] [cursor=pointer]:
+                - generic [ref=e621]: Client insights
+                - img [ref=e622]
+              - generic [ref=e625] [cursor=pointer]:
+                - generic [ref=e626]: Proposal activity report
+                - img [ref=e627]
+```

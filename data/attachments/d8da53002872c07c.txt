@@ -1,0 +1,3 @@
+Clicked 'Drafts' tab.
+Opened 'All Projects' tab in second window.
+Test completed. Browser closed.
