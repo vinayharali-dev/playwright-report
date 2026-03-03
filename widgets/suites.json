@@ -1,1 +1,1 @@
-{"total":1,"items":[{"uid":"eb6a112669947ef4e7b0a3459ecdf365","name":"Edge Stable","statistic":{"failed":1,"broken":1,"skipped":0,"passed":1,"unknown":0,"total":3}}]}
+{"total":1,"items":[{"uid":"eb6a112669947ef4e7b0a3459ecdf365","name":"Edge Stable","statistic":{"failed":0,"broken":1,"skipped":0,"passed":2,"unknown":0,"total":3}}]}
