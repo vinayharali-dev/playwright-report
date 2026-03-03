@@ -1,0 +1,43 @@
+Could not click 'Drafts' tab: page.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('text=Drafts')
+
+    at C:\actions-runner\_work\playwright-automation\playwright-automation\tests\02_Drafts.spec.ts:61:16 {
+  [Symbol(step)]: {
+    location: {
+      file: 'C:\\actions-runner\\_work\\playwright-automation\\playwright-automation\\tests\\02_Drafts.spec.ts',
+      line: 61,
+      column: 16
+    },
+    category: 'pw:api',
+    title: "Click locator('text=Drafts')",
+    apiName: 'page.click',
+    params: { selector: 'text=Drafts', timeout: 10000 },
+    group: undefined,
+    stepId: 'pw:api@30',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@30',
+      _title: "Click locator('text=Drafts')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1772512542657,
+    error: {
+      message: 'Error: page.click: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('text=Drafts')\x1B[22m\n",
+      stack: 'Error: page.click: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('text=Drafts')\x1B[22m\n" +
+        '\n' +
+        '    at C:\\actions-runner\\_work\\playwright-automation\\playwright-automation\\tests\\02_Drafts.spec.ts:61:16',
+      cause: undefined
+    }
+  }
+}
