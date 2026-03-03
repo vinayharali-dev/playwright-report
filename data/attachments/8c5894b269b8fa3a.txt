@@ -1,0 +1,2 @@
+Clicked 'Drafts' tab.
+Test completed. Browser closed.
